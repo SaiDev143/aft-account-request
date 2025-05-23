@@ -2,10 +2,10 @@ module "new-request" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "newaccount14@yopmail.com"
+    AccountEmail              = "newaccount15@yopmail.com"
     AccountName               = "new accunt"
     ManagedOrganizationalUnit = "Test-OU" 
-    SSOUserEmail              = "newaccount14@yopmail.com"
+    SSOUserEmail              = "newaccount15@yopmail.com"
     SSOUserFirstName          = "new"
     SSOUserLastName           = "account"
   }
